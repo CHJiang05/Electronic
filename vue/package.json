@@ -3,14 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "SET NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve --open",
-    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
   },
   "dependencies": {
     "@element-plus/icons": "0.0.11",
     "axios": "^0.24.0",
     "core-js": "^3.6.5",
+    "echarts": "^5.5.0",
     "element-plus": "^1.2.0-beta.4",
+    "moment": "^2.30.1",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
     "vuex": "^4.0.0-0"
